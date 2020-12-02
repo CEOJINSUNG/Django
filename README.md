@@ -135,3 +135,8 @@ Django에 대한 모든 것
       $ sudo rm -rf /usr/local/var/mysql
       $ sudo rm -rf /usr/local/bin/mysql*
       $ sudo rm -rf /usr/local/Cellar.mysql
+
+#### [Django 유용한 정보]
+
+      1. 장고 ORM으로 CRUD 다루기 : https://velog.io/@magnoliarfsit/ReDjango-4.-%EC%9E%A5%EA%B3%A0-ORM%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-DB-CRUD-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
+      2. python 파일로 장고 제어 중 크롤링 사례 : https://beomi.github.io/2017/03/01/HowToMakeWebCrawler-Save-with-Django/
