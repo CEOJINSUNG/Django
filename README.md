@@ -103,6 +103,12 @@ Django에 대한 모든 것
       source myvenv/bin/activate
       
       
+#### [Django로 협업하기]
+      
+      1. pip freeze > requirements.txt 
+      - pip freeze : 현재 환경에서 설치한 패키지를 알려주는 명령어
+      - requirements.txt : Django Project에 생성해놓은 text file
+      - pip freeze > requirements.txt를 사용하면 requirements.txt에다가 자동으로 설치한 패키지를 알려줌
       
       
 #### [MySQL 설치 여정]
