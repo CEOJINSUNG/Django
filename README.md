@@ -46,6 +46,8 @@ Django에 대한 모든 것
       
       # 설정변경
       시간, 경로, 서버 설정함.
+      $ 시간 : "Asia/Seoul", 
+      $ 경로 : STATIC_URL = os.path.join(BASE_DIR, "/static/") - 오류나면 import os 함
       $ python3 manage.py migrate를 함
       $ python3 manage.py runserver를 돌려서 서버가 잘 작동하는지 봐야함
       
@@ -55,6 +57,7 @@ Django에 대한 모든 것
       
       # Model 생성과 활성화
       models.py에서 class 모델을 만들고 settings.py에서 polls.apps.PollsConfig를 넣었음
+      admin.py에서 models.py에서 생성된 모델을 admin.site.register(Model)을 사용하면 됨
       $ python3 manage.py makemigrations polls 그러면 model들이 생성됨
       $ python3 manage.py sqlmigrate polls 0001 이러면 내가 생성한 모델들의 형태들이 보여짐
       $ python3 manage.py migrate 이제 설정을 바꿀 때마다 습관적으로 하게 되는듯
