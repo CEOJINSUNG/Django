@@ -154,5 +154,9 @@ Django에 대한 모든 것
 #### [Django Rest Framework] : https://www.django-rest-framework.org/
       
       1. pip install djangorestframework -> settings.py에서 "rest_framework"를 추가
-      2. 
-          'default' : {
+      2. 인증 및 권한 설정 
+         GET과 POST 방법에서 모든 사용자에게는 GET, 인증된 사용자만 POST 사용 가능
+         IsAuthenticatedOrReadOnly : 인증된 사용자에게는 허용하고 그렇지 않으면 읽기만 가능
+         IsAuthenticated : 인증된 사용자에게만 허용 <- Mypage에서는 허용
+         IsAdminUser : 관리자에게만 허용
+         AllowAny : 모두 허용
